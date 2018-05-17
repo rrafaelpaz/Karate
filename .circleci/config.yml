@@ -34,8 +34,8 @@ jobs:
 
       - run: gradle dependencies
       
-     - run:
-          name: Run Tests
-          command: ./gradlew lint test
+      - run: make test
+      - run: make
+
 
       
