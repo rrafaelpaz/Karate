@@ -34,8 +34,7 @@ jobs:
 
       - run: gradle dependencies
       
-      - run: make test
-      - run: make
+     
 
 
       
