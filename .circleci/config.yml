@@ -28,7 +28,3 @@ keys:
 - v1-dependencies- 
 
 - run: gradle dependencies 
-# it crashes here... If I delete the code below it works 
-- run: 
-name: Run Tests 
-command: ./gradlew lint test
