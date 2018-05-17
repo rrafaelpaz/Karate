@@ -34,4 +34,7 @@ jobs:
 
       - run: gradle dependencies
 
-      
+      test:
+  override:
+    - mkdir -p $CIRCLE_TEST_REPORTS/karate
+    - bundle exec cucumber --format junit --out $CIRCLE_TEST_REPORTS/karate/junit.xml
